@@ -1,6 +1,7 @@
 @echo off
 echo TEST
 color E
+title DUCK.bat
 cls
 
 
@@ -35,4 +36,9 @@ pause
 goto :ducklogin
 
 :ducksignin
-IF NOT EXIST ""
+IF NOT EXIST "\DATA\duckname.txt" goto SIGNUP
+IF NOT EXIST "\DATA\duckpass.txt" goto SIGNUP
+goto LOGIN
+
+:SIGNUP
+tile SignUp
