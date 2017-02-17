@@ -1,5 +1,6 @@
 @echo off
 echo TEST
+color E
 cls
 
 
@@ -32,3 +33,6 @@ echo  Save Completed
 echo -----------------
 pause
 goto :ducklogin
+
+:ducksignin
+IF NOT EXIST ""
