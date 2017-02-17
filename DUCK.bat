@@ -1,4 +1,5 @@
 @echo off
+echo TEST
 cls
 
 
