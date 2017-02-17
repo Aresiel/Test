@@ -11,3 +11,5 @@ git push -u origin master
 echo ------------------
 echo  Save Completed
 echo ------------------
+pause
+exit
