@@ -13,5 +13,5 @@ color 0a
 echo ------------------
 echo  Save Completed
 echo ------------------
-pause
+timout /t 5
 exit
