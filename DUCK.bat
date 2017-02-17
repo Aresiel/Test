@@ -26,5 +26,8 @@ cls
 git add DUCK.bat
 git commit -m "Automated (DUCK.bat) Save"
 git push -u origin master
+echo -----------------
+echo  Save Completed
+echo -----------------
 pause
 goto :ducklogin
